@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/InsideBook.unity
+- path: C:/Users/harrim10/Desktop/ChineseRoom/CRE_Unity/Chinese Room Experiment/Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
