@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
-    float speed = 6;
+    public float speed = 6;
     float rotationSpeed = 80;
     float gravity = 8;
     float rot = 0f;
