@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class CharacterController : MonoBehaviour
             controller.transform.position = new Vector3(-219, -328, 54);
             anim.SetInteger("condition", 3);
             bookanim.SetInteger("bookcondition", 1);
+            SceneManager.LoadScene("InsideBook");
         }
 
 
